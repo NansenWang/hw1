@@ -1,0 +1,160 @@
+
+/*
+整體寬 960px
+Logo: http://i.imgur.com/pHyusTb.png
+登入小人: http://i.imgur.com/HxSb8GP.png
+選單 15px
+*/
+header{
+  width: 960px;
+  margin:0 auto;
+}
+
+header h1{
+  float: left;
+}
+
+header ul{
+  float: left;
+  list-style-type: none;
+  margin-top: 3em;
+}
+
+header li{
+  float: left;
+  margin-left: 3em;
+}
+
+header div{
+  float: right;
+  margin-top: 3em;
+}
+
+
+
+
+
+
+section  {
+  position:relative;
+  width:960px;
+  height:1200px;
+  margin:0 auto;/*--置中--*/
+  background:url(http://i.imgur.com/qHFBqbU.png) center bottom no-repeat;
+                                                /* X      Y     不重複 */
+  font-size:20px;
+  top:150px;
+  background-color: 
+  
+}
+section #art1{
+  height: 50%;
+
+}
+
+section #art1 .phone{
+  position:absolute;
+  top:0;
+  left:160px;
+  
+}
+
+section #art1 .description{
+  position:absolute;
+  top:80px;
+  left:560px;
+}
+
+
+section #art1 ul{
+  list-style-type:none;
+  padding-left:0;
+}
+section #art1 li{
+  line-height:1.3;
+}
+
+
+section #art1 h2{
+  font-size:48px;
+}
+section #art1 .price{
+  font-size:24px;
+}
+
+section #art1 button{
+  color:#fff;
+  padding:10px 40px;
+  border:0;
+  border-radius:100px;
+background: #f0b7a1; /* Old browsers */
+background: -moz-linear-gradient(top,  #f0b7a1 0%, #8c3310 50%, #752201 51%, #bf6e4e 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f0b7a1), color-stop(50%,#8c3310), color-stop(51%,#752201), color-stop(100%,#bf6e4e)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0b7a1', endColorstr='#bf6e4e',GradientType=0 ); /* IE6-9 */
+  
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: .5s;
+  opacity: .6; 
+
+}
+
+section #art1 button:hover{
+  opacity: 1;
+}
+
+
+
+
+#art2{
+  width:960px;
+  margin:0 auto;
+  height: 50%;
+  
+}
+
+#art2 h3,ul, .cover{
+  display:inline-block;
+    vertical-align:top;
+}
+
+#art2 .cover{
+  vertical-align:top;
+}
+#art2 h3{
+  font-size:40px;
+  width:1em;
+  border:#ccc 3px double;
+  padding:40px 15px;
+  line-height:1.3;
+  margin:0;
+}
+
+#art2 ul{
+  list-style-type:none;
+  margin-top:0;
+  margin-right:40px;
+}
+
+#art2 figure{
+  border:1px #ccc solid;
+  padding:8px 16px;
+  text-align:center;
+  
+}
+
+#art2 li figure{
+  border-top-width:0;
+}
+
+#art2 li figure:first-child{
+  border-top-width:1px;
+}
+
+#art2 p{
+  text-align:center;
+}
+
